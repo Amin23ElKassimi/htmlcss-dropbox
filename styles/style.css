@@ -10,3 +10,56 @@ body {
     font-size: .8rem;
   }
 
+/* FLOAT Rules */
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+/* Flex Rules */
+.flex-between-centered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
