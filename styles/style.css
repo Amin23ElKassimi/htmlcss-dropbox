@@ -40,14 +40,37 @@ nav{
     height: 80px;
 }
 
-.item-nav{
-    height: 100%;
+.nav-item{
+    margin: 0 1rem;
 }
 .nav-div-item{
     padding: 0 1rem;
     height: 100%;
 }
 
+/* ----------------- Main ----------------- */
+
+/* Jumbo */
+#jumbo{
+    background-color: #b4d0e7;
+}
+
+#container-jumbo{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#title-jumbo{
+    font-size: 5rem;
+}
+
+#jumbo-pic{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
@@ -65,6 +88,29 @@ nav{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Background Colors */
+
+.bg-blu{
+    background-color: #005aed;
+}
+
+
+/* Font Colors */
+
+.txt-white{
+    color: aliceblue;
+}
 
 
 
