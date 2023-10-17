@@ -39,6 +39,12 @@ body {
     flex-direction: column;
 }
 
+.flex{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
 
 
 /* ----------------- Header ----------------- */
@@ -83,7 +89,6 @@ nav{
     width: 70%;
     height: 100%;
 }
-
 .row-down{
     font-size: 3rem;
     margin: 4rem 0;
@@ -91,6 +96,18 @@ nav{
 
 /* ----------------- Main ----------------- */
 
+#container-broshure{
+    margin-top: 3rem;
+}
+
+.radio{
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.margin{
+    margin: 0 1rem;
+}
 
 
 /* <!-- Contenuti e Broshure --> */
@@ -105,7 +122,7 @@ nav{
 .botton-trialmode{
     margin: 2rem 0;
     padding: 10px;
-    width: 200px;
+    width: 150px;
 }
 
 
