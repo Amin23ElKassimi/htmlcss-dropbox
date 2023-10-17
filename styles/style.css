@@ -6,7 +6,6 @@
 }
 body {
     font-family: sans-serif;
-    font-size: .8rem;
   }
 
 /* FLOAT Rules */
@@ -30,12 +29,20 @@ body {
     align-items: center;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: ;
+}
 
-
+.container-big{
+    width: 70%;
+  margin: 0 auto;
+}
 
 /* ----------------- Header ----------------- */
 
-
+/*  Navbar */
 nav{
     height: 80px;
 }
@@ -48,17 +55,9 @@ nav{
     height: 100%;
 }
 
-/* ----------------- Main ----------------- */
-
-/* Jumbo */
+/* <!-- Container Jumbo  --> */
 #jumbo{
     background-color: #b4d0e7;
-}
-
-#container-jumbo{
-    width: 70%;
-    margin: 0 auto;
-
 }
 
 #title-jumbo{
@@ -66,14 +65,23 @@ nav{
 }
 
 #jumbo-pic{
-    height: 200px;
-    width: 400px;
-    object-fit: cover;
-    object-position: center;
+    height: 400px;
+    width: 600px;
+    object-fit: contain;
+}
+
+.container-description{
+    position: relative;
+    top: 80px;
 }
 
 
 
+/* ----------------- Main ----------------- */
+
+
+
+/* <!-- Contenuti e Broshure --> */
 
 
 
@@ -97,6 +105,9 @@ nav{
 
 
 
+.align-txt{
+    text-align: center;
+}
 
 
 /* Background Colors */
