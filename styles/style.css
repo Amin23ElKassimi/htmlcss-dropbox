@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
   }
 
 /* FLOAT Rules */
@@ -33,14 +34,20 @@ body {
     display: flex;
     justify-content: center;
 }
-
-.container-big{
-    width: 70%;
-  margin: 0 auto;
+.flex-wrap{
+    display: flex;
+    flex-direction: column;
 }
 
-/* ----------------- Header ----------------- */
 
+
+/* ----------------- Header ----------------- */
+.container-big{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 950px;
+    min-width: 950px;
+}
 /*  Navbar */
 nav{
     height: 80px;
@@ -58,23 +65,29 @@ nav{
     background-color: #b4d0e7;
 }
 #title-jumbo{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .container-description{
     position: relative;
-    top: 80px;
+    top: 50px;
 }
+
 .cloumn-img{
-    width: 70%;
+    width: 120%;
 }
 #jumbo-pic{
     width: 100%;
 }
 .cloumn-description{
     width: 70%;
+    height: 100%;
 }
 
+.row-down{
+    font-size: 3rem;
+    margin: 4rem 0;
+}
 
 /* ----------------- Main ----------------- */
 
@@ -89,8 +102,11 @@ nav{
 
 /* <!-- Bottons--> */
 
-.botton-trialmode
-
+.botton-trialmode{
+    margin: 2rem 0;
+    padding: 10px;
+    width: 200px;
+}
 
 
 
@@ -122,6 +138,10 @@ nav{
     color: aliceblue;
 }
 
+
+.no-decoration{
+    text-decoration: none;
+}
 
 
 
