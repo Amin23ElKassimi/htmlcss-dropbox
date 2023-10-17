@@ -34,12 +34,12 @@ body {
     display: flex;
     justify-content: center;
 }
-.flex-wrap{
+.flex-column{
     display: flex;
     flex-direction: column;
 }
 
-.flex{
+.flex-wrap{
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
@@ -96,17 +96,24 @@ nav{
 
 /* ----------------- Main ----------------- */
 
+/* Title Brouschure */
 #container-broshure{
     margin-top: 3rem;
 }
-
 .radio{
-    margin-top: 2rem;
+    margin:2rem 0;
     display: inline-block;
 }
-
-.margin{
+.margin-left{
     margin: 0 1rem;
+}
+
+
+/* Cards */
+
+.card{
+    width: calc(100% / 3 - 4px);
+    margin: 0 2px;
 }
 
 
@@ -139,6 +146,11 @@ nav{
 
 .align-txt{
     text-align: center;
+}
+/* Borders Size & Colors */
+
+.brd-gray{
+    border: 1px solid gray;
 }
 
 
