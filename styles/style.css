@@ -32,7 +32,6 @@ body {
 .flex-center{
     display: flex;
     justify-content: center;
-    align-items: ;
 }
 
 .container-big{
@@ -46,7 +45,6 @@ body {
 nav{
     height: 80px;
 }
-
 .nav-item{
     margin: 0 1rem;
 }
@@ -59,16 +57,19 @@ nav{
 #jumbo{
     background-color: #b4d0e7;
 }
-
 #title-jumbo{
     font-size: 5rem;
 }
-
-#jumbo-pic{
-    height: 400px;
-    width: 600px;
-    object-fit: contain;
+.cloumn-img{
+    width: 70%;
 }
+#jumbo-pic{
+    width: 100%;
+}
+.cloumn-description{
+    width: 70%;
+}
+
 
 .container-description{
     position: relative;
