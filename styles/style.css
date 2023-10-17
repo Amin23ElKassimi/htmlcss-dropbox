@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
 /* FLOAT Rules */
@@ -60,6 +60,11 @@ nav{
 #title-jumbo{
     font-size: 5rem;
 }
+
+.container-description{
+    position: relative;
+    top: 80px;
+}
 .cloumn-img{
     width: 70%;
 }
@@ -69,13 +74,6 @@ nav{
 .cloumn-description{
     width: 70%;
 }
-
-
-.container-description{
-    position: relative;
-    top: 80px;
-}
-
 
 
 /* ----------------- Main ----------------- */
@@ -89,9 +87,9 @@ nav{
 
 
 
+/* <!-- Bottons--> */
 
-
-
+.botton-trialmode
 
 
 
