@@ -39,6 +39,12 @@ body {
     flex-direction: column;
 }
 
+.flex-column-space-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .flex-wrap{
     display: flex;
     justify-content: start;
@@ -112,9 +118,12 @@ nav{
 /* Cards */
 
 .card{
+    height: 800px;
     width: calc(100% / 3 - 4px);
     margin: 0 2px;
 }
+
+
 
 
 /* <!-- Contenuti e Broshure --> */
@@ -133,9 +142,23 @@ nav{
 }
 
 
+/* Common Formules */
 
+.line-height{
+    line-height: 3rem;
+}
 
+.padding-left{
+    padding-left: 1rem;
+}
 
+.mardin-1rem{
+    margin: 1rem;
+}
+
+hr{
+    width: 30px;
+}
 
 
 
