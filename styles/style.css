@@ -123,6 +123,10 @@ nav{
 
 /* Cards */
 
+#container-broshure .title-card{
+    padding: 10px 0;
+}
+
 .card{
     height: 800px;
     width: calc(100% / 3 - 40px);
@@ -197,9 +201,25 @@ nav{
 
 .margtop{
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 
+#azienda h2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+#azienda .margtop{
+    margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  background-color: white;
+}
 
 
 
@@ -257,6 +277,10 @@ hr{
     color: aliceblue;
 }
 
+.txt-black{
+    color: black;
+}
+
 
 .no-decoration{
     text-decoration: none;
@@ -290,6 +314,9 @@ background-color: #0d2480;
 .bg-sky-blue{
 background-color: #0092cd;
 }
+.bg-ble{
+    background-color: #b4d0e7;
+    }
 
 .bg-light-blue{
 background-color: #b3cfe6;
