@@ -53,6 +53,8 @@ body {
 
 
 
+
+
 /* ----------------- Header ----------------- */
 .container-big{
     width: 70%;
@@ -114,20 +116,39 @@ nav{
     margin: 0 1rem;
 }
 
+.title{
+    font-size: 2.3rem;
+}
+
 
 /* Cards */
 
 .card{
     height: 800px;
-    width: calc(100% / 3 - 4px);
-    margin: 0 2px;
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+}
+.small-card{
+    width: calc(100% - 40px);
+    margin: 30px 20px;
+    height: auto;
 }
 
+.card-2{
+    width: 40%;
+    height: 500px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
 
+.image{
+    width: 60%;
+    height: 500px;
+}
 
-
-/* <!-- Contenuti e Broshure --> */
-
+.image img{
+    width: 100%;
+}
 
 
 
@@ -160,16 +181,10 @@ hr{
     width: 30px;
 }
 
-
-
-
-
-
-
-
 .align-txt{
     text-align: center;
 }
+
 /* Borders Size & Colors */
 
 .brd-gray{
@@ -196,8 +211,131 @@ hr{
 }
 
 
+.bold{
+    font-weight: bold;
+}
 
 
+
+
+.container-big{
+margin: 0 auto;
+max-width: 950px;
+}
+
+.flex{
+display: flex;
+}
+
+.bg-red{
+background-color: #fe1c1c;
+}
+
+.bg-blue{
+background-color: #0d2480;
+}
+
+.bg-sky-blue{
+background-color: #0092cd;
+}
+
+.bg-light-blue{
+background-color: #b3cfe6;
+}
+
+.bg-yellow{
+background-color: #fed730;
+
+}
+.bg-dark-red{
+background-color: #61082b;
+
+}
+.bg-light-green{
+background-color: #a1d29a;
+}
+
+.bg-light-grey{
+background-color: #f4f4f4;
+}
+
+
+section.bg-light-blue{
+/* height: 200px; */
+background-color: #b4d0e7;
+}
+
+section.jumbotron{
+padding-top: 0;
+padding-bottom: 1rem;
+}
+
+section.jumbotron > div.container-big{
+position: relative;
+top: 80px;
+}
+
+div.columns{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+div.column{
+font-size: 0.75rem;
+/* border: 2px solid red; */
+padding-top: 3rem;
+}
+
+div.column p{
+margin-bottom: 1rem;
+}
+
+div.column button{
+margin-bottom: 1rem;
+}
+
+div.column img{
+width: 100%;
+} 
+
+div.column-30{
+width: 30%;
+}
+
+div.column-70{
+width: 70%;
+}
+
+div.column-third{
+width: calc(100vw / 3);
+height: calc(100vw / 3);
+/* border: 4px magenta solid; */
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+}
+
+article.client-square{
+/* background-color: aqua; */
+width: 50%;
+height: 50%;
+display: flex;
+}
+
+article.client-square img{
+width: 50%;
+margin: auto;
+filter: invert(1);
+}
+
+div.column-third.bg-light-grey{
+padding: 2rem;
+}
+
+div.column-third.bg-light-grey img{
+width: 50%;
+}
 
 
 
